@@ -134,7 +134,7 @@ public class GeometryBlood {
             try {
                 String res = params[0].placeid;
                 int i=params[0].i;
-                URL url = new java.net.URL("https://maps.googleapis.com/maps/api/place/details/json?placeid=" + res + "&key=AIzaSyBJ8O_MgT3BHO164RrKWRyQPAR6M2avEbg");
+                URL url = new java.net.URL("https://maps.googleapis.com/maps/api/place/details/json?placeid=" + res + "&key=");
                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
                 InputStream in = url.openStream();
 
