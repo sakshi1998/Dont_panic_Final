@@ -266,7 +266,7 @@ public class NearestHospital extends AppCompatActivity {
                         .append(latitude)
                         .append(",")
                         .append(longitude)
-                        .append("&key=AIzaSyBJ8O_MgT3BHO164RrKWRyQPAR6M2avEbg&sensor=false&libraries=places");
+                        .append("&key=&sensor=false&libraries=places");
 
                 URL url = new URL(stringBuilder.toString());
 
